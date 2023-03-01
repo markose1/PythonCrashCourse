@@ -34,4 +34,4 @@ unprinted_designs = ['iphone case','robot pendant','dodecahedron']
 completed_models = []
 print_models(unprinted_designs,completed_models) #assigns unprinted_designs and completed_models to 'print_models'
 show_completed_models(completed_models) #assigns completed_models to 'show_completed_models'
-print_models(unprinted_designs[:], completed_models) #makes a copy of 
+print_models(unprinted_designs[:], completed_models) #sends a copy of 'unprinted_designs' to 'print_models'
